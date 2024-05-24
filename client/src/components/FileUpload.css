@@ -1,0 +1,63 @@
+.top {
+  margin: 40px;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.choose {
+  background-color: initial;
+  color: #ffffff;
+  padding: 12px 25px 25px 20px;
+  border-radius: 2px;
+  margin-right: 30px;
+  padding-bottom: 10px;
+  border: solid rgb(255, 255, 255) 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.1s ease;  
+  font-weight: 200;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.choose:hover {
+  background-color: #141414;
+  border: solid white 1px;
+}
+.textArea {
+  color: white;
+}
+
+.upload {
+  
+  margin-left: 30px;
+  background-color: initial;
+  color: #ffffff;
+  padding: 12px 25px 10px 20px;
+  border: solid rgb(255, 255, 255) 1px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: all 0.1s ease;  
+  font-weight: 200;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  
+}
+.upload:hover {
+  background-color: #141414;
+  border: solid white 1px;
+}
+
+
+
+.upload:disabled,
+.upload[disabled] {
+ 
+  color: #ffffff;
+  
+}
+
+div {
+  padding: 1px 10px;
+}

@@ -1,0 +1,361 @@
+.{
+  width: 1500px;
+}
+
+.App {
+  text-align: center;
+  background-color: #FFF;
+}
+
+.body{
+  background:white;
+}
+
+
+
+.bg {
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  margin-top: 30px;
+  position: fixed;
+  width: 1419px;
+  margin-left: 30px;
+  border-radius: 5px;
+  top: 0;
+  box-shadow: 5px 6px 16px 0px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  object-fit: cover;
+  transition: all 0.1s ease;
+  align-items: center;
+}
+
+.bg:hover{ 
+  background-color: rgb(255, 255, 255);
+  height: 60px;
+  margin-left: 80px;
+  width: 1310px;
+  color: rgb(0, 0, 0);  
+  align-items: center;
+  font-weight: 100;
+  font-family: "Open Sans", sans-serif;
+  object-fit: cover;
+}
+
+
+
+#dgd{
+  padding-left: 600px;
+  font-family: "Russo One", sans-serif;
+  margin-top: 0px;
+  font-size: 50px;
+  position: relative; 
+}
+
+
+p {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  margin-left: 800px;
+  margin-top: -85px;
+  justify-self:center;
+  padding-top: 10px;
+  position: fixed;
+  z-index: 1;
+  
+}
+
+
+#user{
+  padding-right: 6px;
+}
+
+.nlink{
+  height: 100%;
+  width: 100%;
+  object-fit:cover;
+  position:absolute;
+  z-index: -1;
+  margin-left: -10px;
+  
+  }
+
+
+.introimg{
+  
+  height: 730px;
+  margin-left: 0px;
+  margin-right: -10px;
+  color: #fff;  
+  /* background:rgba(0, 0, 0, 0.6) url('https://images.pexels.com/photos/17690958/pexels-photo-17690958/free-photo-of-grow-it-blue.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') ; */
+  background-blend-mode: darken;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+  margin-left: -10px;
+  
+}
+
+#coverimg{
+  height: 1006px;
+  overflow: hidden;
+  
+}
+
+#heading{
+  
+  font-size: 100px;
+  position:sticky;
+  transform: translate(0%,0%);
+  margin-top: 160px;
+  text-align: center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: white;
+  font-family: "Russo One", sans-serif;
+  font-weight: 500;
+
+}
+
+#tittle{
+  font-size: 70px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+}
+#tittle2{
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  color: white;
+}
+#tittle3{
+  font-size: 22px;
+  text-align: justify;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  padding: 1rem 25rem ;
+  font-family: "Oswald", sans-serif;
+  font-weight: 200;
+}
+
+/* dcjgvjhsvcjshvckshvchksvchjsjbchsbchjscbcbs */
+.difference{
+  color: #087287;
+  background-color: #ffffff;
+  text-align: center;
+  padding: 1rem 11rem;
+  background-size: cover;
+  margin-right: -1rem;
+  margin-right: -10px;;
+  margin-left: -10px;
+}
+
+#diff1{
+  padding: 1rem  0rem;
+ font-size: 40px;
+ font-weight: 200;
+}
+
+#diff2{
+  font-size: 16px;
+  padding: 0rem 8rem;
+  text-align:center;
+  font-weight: 400;
+}
+
+
+
+
+/* sjhxbajcbhjzbchjzbchzbchjzxcbhjzxbhxbchxb hjzbc h */
+
+
+.reasons{
+  /* background-color: #f3f8fa; */
+  border-left: solid white 50px ;
+  border-right: solid white 50px ;
+  height: 1750px;
+  margin-right: -10px;
+  margin-left: -10px;
+  /* background: rgba(92, 92, 92, 0.815) url('./images/diamond.jpg'); */
+  /* background: rgba(156, 250, 255, 0.436) url('https://img.freepik.com/premium-photo/abstract-colorful-oblique-lines-background-colorful-background_613001-1132.jpg?w=360'); */
+  background: #cce2e3;
+  background-blend-mode: lighten;
+  
+  overflow: hidden;
+  background-size:cover;
+   
+}
+.first-reason{
+  margin: 7rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  
+  
+}
+
+.para1{
+  background-color: #ffffff;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6)  url('https://img.freepik.com/free-photo/flat-lay-arrangement-blue-plastic-bags_23-2148829896.jpg?t=st=1715699613~exp=1715703213~hmac=885505213af431d21286b0bc723835339bc317a123e7017ef9acb3399bcbad2b&w=996');
+  background-blend-mode: darken;
+  background-size:cover;
+  text-align: center;
+  height: 300px;
+  width: 650px;
+  border-radius: 1px;
+ }
+
+#r-image{
+  position:relative;
+}
+
+#icons{
+  height: 300px;
+  padding: 0rem 1rem;
+  transition: all 0.4s ease;
+  background-blend-mode: darken;
+  background: rgba(255, 255, 255, 0.0);
+ }
+
+#icons:hover{
+ transform: scale(1.02);
+}
+
+#H1{
+  font-size: 40px;
+  font-family: "Oswald", sans-serif;
+  padding: 0rem 4rem;
+  color: #ffffff;
+}
+
+#H2{
+  font-size: 19px;
+  padding: 0rem 5rem;
+  font-weight:lighter;
+  font-family: "Oswald", sans-serif;
+  color: #ffffff;
+  text-align:justify;
+  font-weight: 202;
+}
+
+
+.appintro{
+  
+  height:600px;
+  background: url('./images/boat.png');
+  margin-right: -10px;
+  margin-left: -10px;
+  background-size: cover;
+  overflow: hidden;
+  border: solid white 50px;
+    
+}
+
+.appintrotext{
+  
+  background: rgba(0, 0, 0, 0.6);
+  width: 700px;
+  height: 600px;
+  text-align: center;
+  transform: translate(96%, 0%);
+  background-blend-mode: darken;
+}
+
+#tittle4{
+  font-weight: 230;
+  font-size: 22px; 
+  font-family: "Oswald", sans-serif;
+  color: white;
+  padding: 1rem 3rem;
+  text-align: justify;
+}
+
+.App{
+  background: rgba(2, 124, 79, 0.463) url('https://img.freepik.com/free-photo/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner_1258-54058.jpg?t=st=1715693877~exp=1715697477~hmac=f7aae5684e3c95d8c30963cd66aceada3bf24ed65683267c88c02f2cbe950729&w=1380');
+  background-blend-mode: lighten;
+  height: 800px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: -10px;
+  margin-bottom: -100px;
+  background-size: cover;
+  margin-left: -10px;
+}
+#logo{
+ margin-top: 100px; 
+ height: 300px;
+ 
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 0.25em;
+  box-shadow: 0 0 0.25em rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  left: 50%;
+  padding: 10vmin;
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-family: monospace;
+}
+body {
+  
+  background-color: #080808;
+}
+header {
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  overflow: hidden;
+  border-radius: 0 0 85% 85% / 30%;
+}
+header .overlay {
+  width: 100%;
+  height: 100%;
+  padding: 50px;
+  color: #fff;
+  text-shadow: 1px 1px 1px #333;
+  background-image: linear-gradient(135deg, #9f05ff69 10%, #fd5e086b 100%);
+}
+
+
+
+.share {
+  background-color: initial;
+  margin-top: 10px;
+  margin-right: 1300px;
+  vertical-align: center;
+  transform: translate(50%,500%);
+  width: 160px;
+  height: 49px;
+  color: #ffffff;
+  font-size: 18px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border:solid rgb(255, 255, 255) 1px;
+  transition: all 0.1s ease;
+  font-weight: 200;
+  font-size: 20px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.share:hover {
+background-color: #141414;
+border: solid white 1px;
+
+}
+
+#fa{
+  padding-left: 5px;
+}
